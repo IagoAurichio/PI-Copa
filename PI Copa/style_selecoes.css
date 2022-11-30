@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+header img {
+    width: 100px;
+    margin: 10px 10px 10px 100px;
+}
+header .navegacao {
+    float: right;
+    margin: 40px 100px 20px 20px;
+    word-spacing: 10px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+div h1 {
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bandeiras img {
+    width: 150px;
+    height: 100px;
+    margin-left: 60px;
+}
+.bandeiras a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 130px; 
+    margin-left: 0px;
+    margin-top: 100px;
+    font-size: 15px;
+    text-align: center;
+}
+.qatar, .equador{
+    display: inline-block;
+}
+.senegal, .holanda{
+    display: inline-block;
+}
+.grupoA{
+    max-width: 50%;
+    border-top: 5px solid #9E2129;
+    border-right: 5px solid #9E2129;
+    border-bottom: 5px solid #9E2129;
+    border-left: 2px solid #9E2129;
+}
+.inglaterra, .ira{
+    display: inline-block;
+}
+.usa, .wales{
+    display: inline-block;
+}
+.grupoB{
+    max-width: 50%;
+    float: right;
+    margin-top: -254px;
+    border-top: 5px solid #9E2129;
+    border-right: 2px solid #9E2129;
+    border-bottom: 5px solid #9E2129;
+    border-left: 5px solid #9E2129;
+} /* olhar margin negativa grupo B com bootstrap*/
+a:hover {
+    color: #9E2129;
+}
